@@ -1,0 +1,313 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(/astrum/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(/astrum/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Condensed;
+  src: url(/astrum/fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+body {
+  width: 1920px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.top__block {
+  width: 2109px;
+  height: 890px;
+  left: -54px;
+  background-image: url(/astrum/img/Hue_Saturation\ 5\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 28%;
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+}
+
+.top__glow {
+  position: absolute;
+  width: 1839px;
+  height: 892px;
+  left: 133px;
+  mix-blend-mode: screen;
+  background-image: url(/astrum/img/glow\ 1.png);
+}
+
+.top__glow--bottom {
+  position: absolute;
+  width: 1977px;
+  height: 172px;
+  top: 720px;
+  left: -115px;
+  background-image: url(/astrum/img/BLUE\ GLOW\ 3.png);
+  background-repeat: no-repeat;
+  z-index: 6;
+}
+
+.top__person {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15px;
+}
+.top__person--left {
+  background-image: url(/astrum/img/MafiaCostume_2022\ 2.png);
+  left: 54px;
+}
+
+.top__person--right {
+  background-image: url(/astrum/img/MafiaCostume_2022\ 3.png);
+  left: 1272px;
+}
+
+.top__boxes {
+  width: 873px;
+  height: 524px;
+  top: 234px;
+  left: 551px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center;
+  background-image: url(/astrum/img/boxes.png);
+}
+
+.top__logo {
+  width: 376px;
+  height: 348px;
+  top: 0px;
+  left: 825px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: top center;
+  background-image: url(/astrum/img/logo.png);
+}
+
+.top__gradient {
+  width: 462px;
+  height: 100%;
+}
+
+.top__gradient--left {
+  position: absolute;
+  mix-blend-mode: multiply;
+  background-image: url(/astrum/img/Layer\ 157\ 1.png);
+  left: 54px;
+}
+
+.top__gradient--right {
+  left: 1512px;
+  position: absolute;
+  mix-blend-mode: multiply;
+  background-image: url(/astrum/img/Layer\ 157\ 1.png);
+  transform: rotate(180deg);
+}
+
+.top__gradient--bottom {
+  position: absolute;
+  width: 2609px;
+  height: 380px;
+  top: 511px;
+  left: 0;
+  mix-blend-mode: multiply;
+  background-image: url(/astrum/img/Layer\ 157\ 3.png);
+  background-repeat: no-repeat;
+}
+
+.top__title {
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto-Condensed;
+  font-size: 42px;
+  line-height: 49.22px;
+  position: absolute;
+  top: 737px;
+  left: 48%;
+  transform: translate(-50%);
+}
+
+.top__descr {
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  line-height: 18px;
+  top: 807px;
+  left: 48%;
+  transform: translate(-50%);
+}
+
+.content {
+  background-image: url(/astrum/img/background\ wall.png);
+  background-position: 0 82%;
+  width: 100%;
+  height: 1060px;
+}
+
+.content__block {
+  position: absolute;
+  left: 960px;
+}
+
+.content__title {
+  color: rgba(65, 109, 244, 1);
+  font-family: Roboto-Condensed;
+  font-size: 30px;
+  line-height: 35.16px;
+  padding-top: 57px;
+  margin-bottom: 42px;
+}
+
+table {
+  border-collapse: collapse;
+}
+table tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 620px;
+  height: 60px;
+  padding: 5px;
+  margin-bottom: 4px;
+  border-spacing: 15px;
+}
+table td {
+  border: none;
+}
+
+.table__column-title {
+  color: rgba(103, 29, 0, 0.48);
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  padding: 5px 10px;
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 9px;
+  margin-right: 5px;
+}
+
+.table__column-title:not(:last-child) {
+  margin-right: 11px;
+}
+
+.table__header-row {
+  justify-content: flex-end;
+  height: 17px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+}
+
+.table__row {
+  border: 1px solid rgba(103, 29, 0, 0.48);
+}
+
+.table__image {
+  margin-right: 15px;
+}
+
+.table__image--img {
+  width: 64px;
+  height: 64px;
+}
+
+.table__descr {
+  width: 180px;
+  display: flex;
+  justify-content: left;
+  font-family: Roboto-Regular;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 76px;
+}
+
+.table__value {
+  display: flex;
+  width: 120px;
+  padding: 0px 16px;
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: rgba(255, 255, 255, 1);
+  justify-content: center;
+}
+
+.content__buy {
+  height: 360px;
+  margin-top: 15px;
+  margin-left: 2px;
+  background-image: url(/astrum/img/box.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.content__price {
+  position: absolute;
+  top: 157px;
+  left: 264px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto-Regular;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58.59px;
+}
+
+.content__button {
+  position: absolute;
+  top: 227px;
+  left: 264px;
+  text-decoration: none;
+  background-color: rgba(252, 255, 0, 1);
+  color: rgba(0, 0, 0, 1);
+  width: 180px;
+  height: 40px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  line-height: 18.75px;
+}
+
+.content__image {
+  position: absolute;
+  width: 441px;
+  height: 891px;
+  top: 923px;
+  left: 359px;
+
+  background-image: url(/astrum/img/Vito\ 1.png);
+}
+
+.content__background {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 917px;
+  left: 66px;
+  background-image: url(/astrum/img/Ellipse\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content__glow {
+  background-image: url(/astrum/img/BLUE\ GLOW\ 1.png);
+  position: absolute;
+  width: 1977px;
+  height: 172px;
+  top: 1780px;
+  left: -74px;
+}
